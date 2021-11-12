@@ -21,7 +21,7 @@ public class Welcome extends HttpServlet {
 				+ "<title>My Page</title>"
 				+ "</head>"
 				+ "<body>"
-				+ "<h2> welcome, the current time is "+req.getParameter("nameInput")+"  "
+				+ "<h2> welcome, to the current time is screen "+req.getParameter("nameInput")+"  "
 						+req.getParameter("ageInput") +"-"+ Thread.currentThread().getName()+ "</h2> "
 				+ "</body>"
 				+ "</html>");
